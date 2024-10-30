@@ -1,0 +1,80 @@
+.jongJava {
+  width: 500px;
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+  animation: jongJava ease 4s;
+}
+@keyframes jongJava {
+   0%{
+      left: 100%;
+      opacity: 0;
+   }
+   100%{
+      left: 57.8%;
+      opacity: 1;
+   }
+}
+.kongSump {
+  width: 500px;
+  position: absolute;
+  right: 54.5%;
+  bottom: -55%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.kongSump.animate {
+  opacity: 1;
+  animation: kongSump ease 4s;
+}
+
+@keyframes kongSump {
+  0%{
+     right: 110%;
+     opacity: 0;
+  }
+  100%{
+     right: 54.5%;
+     opacity: 1;
+  }
+}
+.teksSump {
+  width: 500px;
+  position: absolute;
+  right: 30.5%;
+  bottom: -194%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.teksSump.animate {
+  opacity: 1;
+  animation: teksSump ease 4s;
+}
+
+@keyframes teksSump {
+  0%{
+     bottom: -250%;
+     opacity: 0;
+  }
+  100%{
+     bottom: -194%;
+     opacity: 1;
+  }
+}
+.textp {
+  width: 50%;
+  text-align: justify;
+}
+.textp2 {
+  width: 51.5%;
+  text-align: justify;
+  right: 0;
+  position: absolute;
+  margin-top: 50px;
+}
+.kgp {
+  right: 0;
+  position: absolute;
+}
